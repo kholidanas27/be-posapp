@@ -10,7 +10,7 @@ config.sequelize.database = process.env.DB_NAME
 config.sequelize.host = process.env.DB_HOST
 config.sequelize.port = process.env.DB_PORT
 config.sequelize.dialect = 'postgres'
-config.sequelize.logging = logging
+config.sequelize.logging = logging  
 config.sequelize.pool = {
   max: 5,
   min: 0,
