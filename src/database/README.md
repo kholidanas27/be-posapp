@@ -8,8 +8,14 @@ npx sequelize-cli model:generate --name User --attributes firstName:string,lastN
 # using yarn
 yarn sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
 
-## migrate models
+## generate migrations
 # using npm
 npx sequelize-cli migration:generate --name migration-example
 # using yarn
 yarn sequelize-cli migration:generate --name migration-example
+
+## migrate
+# using npm 
+npx sequelize-cli db:migrate
+# using yarn 
+yarn sequelize-cli db:migrate
